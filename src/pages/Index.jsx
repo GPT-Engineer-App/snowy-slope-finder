@@ -66,9 +66,7 @@ const Index = () => {
           />
           <Button onClick={handleSearch} colorScheme="blue" size="lg">Search</Button>
         </Box>
-        <Box>
-          <Text>Map Placeholder</Text> {/* Replace with actual map component */}
-        </Box>
+        
         <SimpleGrid columns={2} spacing={10}>
           {filteredResorts.map((resort, index) => (
             <Box key={index} p={5} shadow="md" borderWidth="1px">
